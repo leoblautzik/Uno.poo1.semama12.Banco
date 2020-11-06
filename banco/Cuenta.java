@@ -19,7 +19,7 @@ public abstract class Cuenta {
 		return saldo;
 	}
 
-	public void setSaldo(Double saldo) {
+	protected void setSaldo(Double saldo) {
 		this.saldo = saldo;
 	}
 

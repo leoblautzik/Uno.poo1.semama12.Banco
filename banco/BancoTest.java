@@ -4,7 +4,7 @@ public class BancoTest {
 
 	public static void main(String[] args) {
 		CuentaDeAhorro ca = new CuentaDeAhorro(11111111);
-		CuentaCorriente cc = new CuentaCorriente(22222222);
+		CuentaCorriente cc = new CuentaCorriente(22222222,ca);
 		cc.setCuentaDeAhorroAsociada(ca);
 		ca.depositar(1000);
 		cc.depositar(500);

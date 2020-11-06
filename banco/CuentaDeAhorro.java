@@ -20,13 +20,6 @@ public class CuentaDeAhorro extends Cuenta{
 			return 0.0;
 		}
 
-
-
-		
-		
-		
-		
-			
 		
 	}
 
